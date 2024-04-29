@@ -1,0 +1,302 @@
+#b1
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    border-radius: 15px;
+}
+#b1:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b2
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    
+    border-radius: 15px;
+}
+#b2:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b3
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    
+    border-radius: 15px;
+}
+#b3:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b4
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    border-radius: 15px;
+}
+#b4:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b5
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    
+    border-radius: 15px;
+}
+#b5:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b6
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    
+    border-radius: 15px;
+}
+#b6:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b7
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    border-radius: 15px;
+}
+#b7:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b8
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    
+    border-radius: 15px;
+}
+#b8:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+#b9
+{
+    border: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 214, 214);
+    color:rgb(214, 214, 214);
+    margin-right:8px;
+    margin-top:8px;
+    border-radius: 15px;
+}
+#b9:hover
+{
+    background-color:rgb(190, 190, 190);
+}
+.button:hover{
+    background-color:rgb(205, 205, 205);
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brsmall
+{
+    margin-bottom:-20px;
+}
+#Start
+{
+    border: none;
+    height: 40px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: -10px;
+    display: block;
+    font-kerning: auto;
+    font-stretch: expanded;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 50;
+    cursor: cursor;
+    padding: 15px;
+    /* border-radius: 10px; */
+}
+#Start:hover
+{
+    background-color:rgb(77, 187, 55);
+    color: white;
+}
+#score {
+    position: top;
+    background: #ffffff;
+    color: #1450A3;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    height: 30px;
+    width: 600px;
+    margin-left: -7.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+  }
+
+  #highScore {
+    position: top;
+    background: #ffffff;
+    color: #1450A3;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    height: 30px;
+    width: 400px;
+    margin-left: -2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+  }
+/* Dropdown Button */
+.dropbtn {
+    
+    background-color: #ffffff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: monospace;
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(143, 103, 103, 0.2);
+    z-index: 1;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: monospace;
+    text-align: left;
+    font-size: 16px;
+  }
+  select {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align: center;
+    width: 89px;
+    height: auto;
+}
+
+.credit {
+    text-align: right;
+    margin-right: 50px;
+}
+
+/*container*/
+.tooltip { 
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    font-family: monospace;
+  }
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+/* show on hover */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #f3f3f3;}
