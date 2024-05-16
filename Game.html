@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+                                                                                                                                                        
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <audio id = "buttonLightUp">
+        <source src = "beep.wav"></source>
+        </audio>
+
+    <audio id = "loseSound">
+        <source src = "lose.wav"></source>
+    </audio>
+
+    <audio loop = true src = "bgSong.mp3" id = "backgroundMusic">
+    </audio>
+
+
+
+    <body>
+        <br>
+        <form>
+            <div>
+            <div class="dropdown">
+                <button class="dropbtn" style = "margin-top:-20px;"><img src="gear.png" width="30px" height="30px" margin-left = "-40px" margin-bottom = "-100px" alt="Gear Icon" ></button>
+                <div class="dropdown-content">
+                    <div style = "font-weight: bold;">   Difficulty</div>
+                    <select name="Difficulty" id="Diff" size="3" style = "font-family: monospace; font-size: 16px; font-weight: bold;">
+                        <option value = "eas">Easy</option>
+                        <option value = "med" selected>Normal</option>
+                        <option value = "har">Hard</option>
+                      </select>
+                      <div></div>
+                  <input type="checkbox" class="toggle" id = "audio" checked><b>SFX</b></input>
+                  <div></div>
+                  <input type="checkbox" class="toggle" id = "bgMusic" ><b>Music</b></input>
+                  <div></div>
+                  <div class = "credit">
+                    <div class = "tooltip" onclick="event.currentTarget.setAttribute('data-active', event.currentTarget.getAttribute('data-active') != 'true')"><b>About Us</b>
+                        <span class = "tooltiptext">Created by: Christian Kiest, Urvi Ramesh, Jaden Lanning, and Evan Moore. This exercise is intended to assist in memory retention in those who struggle with memory loss, especially the older generation. But, it can also just be a fun way to test your memory! </span>
+                    </div>
+                </div>
+                  <!-- <a href="#">Link 3</a> -->
+                </div>
+              </div>
+              <h1 style ="text-align: center; font-size: 80px; margin-top: 10px; margin-bottom: 10px;margin-top: -40px; font-family: monospace;">MEMORY PRACTICE</h1>
+              <div class = "container">
+                <div id="Start" style = "text-align:center;" >S  T  A  R  T</div>
+              </div>
+            </div>
+            <div class = "container" style = "background-color: rgb(193, 207, 226);">
+            <div id="score" style = "font-size: 25px; font-weight: bolder;">Score:</div>
+            <div id="highScore" style = "font-size: 25px; font-weight: bolder;">High Score:</div>
+            </div>
+            <div class = "container">
+                <div id="b1"> </div>
+                <div id="b2"> </div>
+                <div id="b3"> </div>
+            </div>
+
+            <span class="brsmall"></span>
+
+            <div class = "container">
+                <div id="b4"> </div>
+                <div id="b5"> </div>
+                <div id="b6"> </div>
+            </div>
+
+            <span class="brsmall"></span>
+            <div class = "container">
+                <div id="b7"> </div>
+                <div id="b8"> </div>
+                <div id="b9"> </div>
+            <span class="brsmall"></span>
+            </div>
+        </form>
+
+        <script src = "Main.js"></script>
+    </body>
+</html>
